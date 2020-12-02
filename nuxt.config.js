@@ -2,6 +2,11 @@ export default {
   // Target (https://go.nuxtjs.dev/config-target)
   target: "static",
 
+  // Generate
+  generate: {
+    dir: 'public', // public/ instead of dist/
+  },
+
   // Global page headers (https://go.nuxtjs.dev/config-head)
   head: {
     title: "nuxtjs",
